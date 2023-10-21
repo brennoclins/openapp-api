@@ -4,7 +4,7 @@
   "description": "A motivação para esse projeto esta na necessidade encontrada em um dos meus clientes que estava enfrentando alguns problemas com vírus, funcionários mal capacitados e que apresentam resistência a novidades.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "tsx watch src/server.ts"
   },
   "keywords": [],
   "author": "",
