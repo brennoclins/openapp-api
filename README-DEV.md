@@ -54,6 +54,10 @@ export async function openFirefoxRoute(app: FastifyInstance) {}
 npm i zod
 ```
 
+### Instalando e configurando o CORS no fastify
+```
+npm i @fastify/cors
+```
 
 ##
 [GIT](https://git-scm.com/)
