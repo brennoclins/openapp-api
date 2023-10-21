@@ -7,7 +7,7 @@
     "dev": "tsx watch src/server.ts"
   },
   "keywords": [],
-  "author": "",
+  "author": "Brenno - BCL-ST",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^20.8.7",
