@@ -31,6 +31,11 @@ mkdir src
 arquivo: routes.http
 ```js
 GET http://localhost:3333
+
+###
+
+# @name open-firefox
+GET http://localhost:3333/open-app/firefox
 ```
 
 ##
