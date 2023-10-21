@@ -38,6 +38,17 @@ GET http://localhost:3333
 GET http://localhost:3333/open-app/firefox
 ```
 
+## Separando rotas no Fastify
+- para separar rotas no Fastify com Typescript temos que passar nosso APP pra o novo arquivo da rota e tipar o app com a instancia do fastify "FastifyInstance"
+
+OBS.: todas as rotas precisam ser assíncronas, para poder o usa a opção app.register()
+
+```ts
+import { FastifyInstance } from "fastify";
+
+export async function openFirefoxRoute(app: FastifyInstance) {}
+```
+
 ##
 [GIT](https://git-scm.com/)
 [TypeScript](https://www.typescriptlang.org/)
