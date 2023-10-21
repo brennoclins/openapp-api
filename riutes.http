@@ -1,6 +1,22 @@
+# @name get-apresentation
 GET http://localhost:3333
 
 ###
 
 # @name open-firefox
 GET http://localhost:3333/open-app/firefox
+
+###
+
+# @name open-the-app-by-name
+GET http://localhost:3333/open-app/vlc/open
+
+###
+
+# @name cad-appname
+POST http://localhost:3333/cad-app/:userid/user
+Content-Type: application/json
+
+{
+  "prompt": "BCL-ST"
+}

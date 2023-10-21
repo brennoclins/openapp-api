@@ -49,9 +49,16 @@ import { FastifyInstance } from "fastify";
 export async function openFirefoxRoute(app: FastifyInstance) {}
 ```
 
+### Instalando o zod para validar dados
+```js
+npm i zod
+```
+
+
 ##
 [GIT](https://git-scm.com/)
 [TypeScript](https://www.typescriptlang.org/)
 [NodeJS](https://nodejs.org/)
 [Fastify](https://www.fastify.io)
 [HTTPIE](https://httpie.io/)
+[Zod](https://zod.dev/)
