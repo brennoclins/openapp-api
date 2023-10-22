@@ -59,6 +59,41 @@ npm i zod
 npm i @fastify/cors
 ```
 
+### Preparando o projeto para produção
+- atualizar o arquivo package.json
+- criar um arquivo  tsconfig.json
+- criar script de build e de start
+
+package.json
+```js
+"scripts": {
+    "start": "node dist/server.js",
+    "build": "npx tsc",
+
+```
+- adiciona ao final do arquivo package.json
+```js
+ "type": "commonjs"
+```
+
+criando arquivo tsconfig.json
+```js
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "CommonJS",
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "moduleResolution": "Node"
+  }
+}
+
+```
+
+
 ##
 [GIT](https://git-scm.com/)
 [TypeScript](https://www.typescriptlang.org/)
