@@ -8,8 +8,6 @@ Para resolver esse problema estou implementando um web site interno para servir 
  API para chamar aplicativos nativos no Windows ou no Linux, essa API foi criada para interagir com uma interface web que vai solicitar os aplicativos pelo nome para que sejam abertos no sistema operacional.
 
 
-OBS.: Esse projeto esta bem simples pôs é apenas um modelo do projeto real e vai servir de base para uma live.
-
 ## TECHS 
 [GIT](https://git-scm.com/)
 [TypeScript](https://www.typescriptlang.org/)
