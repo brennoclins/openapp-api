@@ -1,4 +1,5 @@
 ![screen](/src/pages/screen_001.png)
+![screen](/src/pages/001.png)
 
 ## Esse projeto visa servir de ponte para que uma interface web possa abrir aplicativos no Windows ou Linux
 
@@ -18,4 +19,3 @@ Para resolver esse problema estou implementando um web site interno para servir 
 - [HTTPIE](https://httpie.io/)
 - [Zod](https://zod.dev/)
 
-![screen](/src/pages/001.png)
