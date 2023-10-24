@@ -13,5 +13,5 @@ POST http://localhost:3333/cad-app/:userid/user
 Content-Type: application/json
 
 {
-  "prompt": "BCL-ST"
+  "appname": "firefox"
 }
