@@ -1,4 +1,6 @@
-# Esse projeto visa servir de ponte para que uma interface web possa abrir aplicativos no Windows ou Linux
+![screen](/src/pages/screen_001.png)
+
+## Esse projeto visa servir de ponte para que uma interface web possa abrir aplicativos no Windows ou Linux
 
 O objetivo deste projeto é resolver um problema que um dos meus clientes enfrentava: a vulnerabilidade aos vírus, a falta de capacitação dos funcionários e a resistência às inovações.
 
@@ -9,9 +11,11 @@ Para resolver esse problema estou implementando um web site interno para servir 
 
 
 ## TECHS 
-[GIT](https://git-scm.com/)
-[TypeScript](https://www.typescriptlang.org/)
-[NodeJS](https://nodejs.org/)
-[Fastify](https://www.fastify.io)
-[HTTPIE](https://httpie.io/)
-[Zod](https://zod.dev/)
+- [GIT](https://git-scm.com/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [NodeJS](https://nodejs.org/)
+- [Fastify](https://www.fastify.io)
+- [HTTPIE](https://httpie.io/)
+- [Zod](https://zod.dev/)
+
+![screen](/src/pages/001.png)
